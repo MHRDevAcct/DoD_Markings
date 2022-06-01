@@ -25,3 +25,9 @@ TODO: Complete this section, I could never get Reyburn's app to work on my local
 
 If an error occurs, ensure nothing is running on port 3000 by using `lsof -i :3000`
 
+
+# Developer TODO
+
+- Fix Dockerfile to add secrets
+- Complete installation and configuration guide
+
