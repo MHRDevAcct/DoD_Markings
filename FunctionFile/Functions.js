@@ -235,7 +235,7 @@ function addInternetHeader(callback) {
     try{
         Office.context.mailbox.item.internetHeaders.setAsync(
         { "x-preferred-fruit": "orange"},
-        setCallback(asyncResult, "Internet Header")
+        setCallback
         );
         //Calls killEvent Next
         callback();
