@@ -8,7 +8,7 @@ RUN apt update ; \
     sudo \
     git -y;
 
-
+RUN exit 1;
 
 RUN useradd --no-log-init --create-home --shell /bin/bash officeTool; \
     usermod -aG sudo officeTool; \
