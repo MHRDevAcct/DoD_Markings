@@ -1,0 +1,36 @@
+*:not(hr,.header) {
+    padding: 05px;
+}
+.header {
+    color: #038cfc;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn {
+    border:none;
+    color: #FFFFFF; /* White */
+    background-color: #7f0099;/* Green */
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 3px 3px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    font-size: large;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
